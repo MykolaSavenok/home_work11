@@ -6,7 +6,7 @@ const result = pow(Number(number), Number(power));
 function pow(num, degree) {
 
    if (num < 0 || power < 0 || isNaN(num) || isNaN(power) || !Number.isInteger(num) || !Number.isInteger(power)) {
-      return 'Please enter only number!';
+      return 'invalid value!';
    }
    if (degree === 0) {
       return 1;
